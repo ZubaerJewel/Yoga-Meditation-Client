@@ -1,1 +1,1 @@
-# summer-camp-server
+# summer-camp-client
