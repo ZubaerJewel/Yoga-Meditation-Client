@@ -1,1 +1,1 @@
-# summer-camp-client
+# yoga-meditation-client

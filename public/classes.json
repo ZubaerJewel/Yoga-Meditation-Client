@@ -1,50 +1,203 @@
 [
     {
-        "_id": "643010e0f5a7e52ce1e8fa65",
+        
         "image": "https://iso.500px.com/wp-content/uploads/2016/05/stock-photo-136664977.jpg",
-        "name": "Fine-art photography",
-        "Ins_name": "Jane Doe",
+        "cls_name": "Breathing Meditations",
+        "cls_details":  "A simple breath-focused meditation has several cognitive benefits from an increased ability to focus, less of a wandering mind, improved arousal levels, more positive emotions, less emotional reactivity, and many other benefits.The mindfulness of breathing practice involves using the breath as an object of focus. It’s a great technique that anyone can do.Breathing practices allow you to focus on the moment and focus on the breath because each moment you spend focusing on something positive is one less moment you spend focusing on something negative.Many people breath shallower during times of stress, so learning how to breathe deeply can help you feel more peaceful and calm throughout the day. ",
+        "ins_name": "Jane Doe",
+        "category": "Meditation",
         "available_seats": "30",
         "price": 1250
     },
     {
-        "_id": "643010f9f5a7e52ce1e8fa66",
+        
         "image": "https://iso.500px.com/wp-content/uploads/2022/07/Sunset-somewhere-in-Iowa-By-Vath.-Sok-2-1500x1000.jpeg",
-        "name": "Landscape photography",
-        "Ins_name": "Jane Doe",
+        "name": "Mindfulness Meditations",
+        "cls_details":  " Practicing mindfulness might include mindful breathing, guided imagery, or even something like a body scan meditation where you tune into your body.Mindfulness means doing something with 100% of your attention and focus, so you could also practice mindfulness while washing the dishes or taking a shower.In typical mindfulness meditation, you might take the time to breathe deeply or even scan your body, working your way up from your toes to the top of your head.",
+        "ins_name": "Jane Doe",
+        "category": "Meditation",
         "available_seats": "20",
         "price": 3000
     },
     {
-        "_id": "6430110af5a7e52ce1e8fa67",
+        
         "image": "https://www.photobox.co.uk/blog/wp-content/uploads/2017/10/4-1.jpg",
-        "name": "Fashion photography",
-        "Ins_name": "Jane Doe",
+        "cls_name": "Focus Meditations",
+        "cls_details":  "A focus meditation involves focusing on an object like a flower or a candle and taking the time to examine it to the fullest extent.You can select anything that stimulates your senses. For example, if you chose a yellow rose, you could sit and stare at the rose and imagine yourself touching it and feeling its velvety texture. You could also pay attention to any lines or creases in the rose or immerse yourself in the color yellow.A focus meditation is all about zeroing in on the details of something so much so that you don’t see anything else.You can start by choosing an item of focus like a candle and sit comfortably in front of it. As you breathe in and out, notice how the flame flickers or how the flame is made of several different colors. Focus on the smells, the sounds, and experience what it’s like to immerse yourself in the candle. ",
+        "ins_name": "Jane Doe",
+        "category": "Meditation",
         "available_seats": "39",
         "price": 2000
     },
     {
-        "_id": "64301123f5a7e52ce1e8fa68",
+       
         "image": "https://cdn.mos.cms.futurecdn.net/ySSdrhvVv2tuPRXsFRedG8.jpg",
-        "name": "Architectural photography",
-        "Ins_name": "Jane Doe",
+        "cls_name": "Movement Meditation or Walking Meditations",
+        "cls_details":  "Walking meditation is derived from Zen Buddhism and it is also known as kinhin, a practice in which practitioners walk around the room while holding their hands in shashu: holding one hand closed in a fist behind the back and the other hand closed within the fist.During the walking meditation, steps are taken after each full breath. The beginning of kinhin is announced by the ringing of a bell twice.There are many modern variations to walking meditation and walking meditations can be very rewarding and relaxing. The idea behind a walking meditation is to walk in silence as you observe everything that is going on all around you.",
+        "ins_name": "Jane Doe",
+        "category": "Meditation",
         "available_seats": "27",
         "price": 1200
     },
     {
-        "_id": "6430113af5a7e52ce1e8fa69",
+        
         "image": "https://www.picturecorrect.com/wp-content/uploads/2015/04/lunar-eclipse-timelapse.jpg",
-        "name": "Time-lapse photography",
-        "Ins_name": "Jane Doe",
+        "cls_name": "Mantra Meditations",
+        "cls_details":  " A mantra is a sacred sound that is used to override linguistic thought.In Sanskrit, the word mantra is a combination of two words- manas meaning mind and tra meaning tool- literally a mind tool, or rather tool for training the mind.Mantras are yogic devices based on sacred sounds that evoke specific psychological states. The mental or verbal recitation of the mantra is used to enhance focused awareness and eliminate linguistic thought.Mantra meditation involve the repetition of a sacred sound, known as a mantra, to gain focus or clarity. The mantra can be chanted aloud or repeated silently. Many cultures utilize mantras but the Buddhist faith may be the most well known. Chanting is an age-old practice that has been used for millennia.",
+        "ins_name": "Jane Doe",
+        "category": "Meditation",
         "available_seats": "15",
         "price": 4000
     },
     {
-        "_id": "6430113af6a7e52ce1e8fa70",
+        
         "image": "https://dvyvvujm9h0uq.cloudfront.net/com/articles/1568181023-765128-macro-5jpg.jpg",
-        "name": "Macro photography",
-        "Ins_name": "Jane Doe",
+        "cls_name": "Buddhist Meditations such as Loving Kindness",
+        "cls_details":  "Anapanasati, mindfulness of breathing, is a core meditation practice in Theravada, Tiantai and Chan traditions of Buddhism as well as a part of many mindfulness programs. In both ancient and modern times, anapanasati by itself is likely the most widely used Buddhist method for contemplating bodily phenomena. ",
+        "ins_name": "Jane Doe",
+        "category": "Meditation",
         "available_seats": "10",
         "price": 3000
+    },
+    {
+        
+        "image": "https://www.photobox.co.uk/blog/wp-content/uploads/2017/10/4-1.jpg",
+        "cls_name": "Christian Meditation or Spiritual Meditations",
+        "cls_details":  "Christian meditation is the process of deliberately focusing on specific thoughts (such as a Bible passage) and reflecting on their meaning in the context of the love of God. Christian meditation aims to heighten the personal relationship based on the love of God that marks Christian communion. ",
+        "ins_name": "Jane Doe",
+        "category": "Meditation",
+        "available_seats": "39",
+        "price": 2000
+    },
+    {
+       
+        "image": "https://cdn.mos.cms.futurecdn.net/ySSdrhvVv2tuPRXsFRedG8.jpg",
+        "cls_name": "Guided Meditations",
+        "cls_details":  "There are hundreds if not thousands of guided meditation techniques and this type of practice can be very rewarding.Guided meditations involve the usage of imagery and visualizations and they can be very helpful for those who find typical meditation techniques challenging. Guided meditations can take you places you can only imagine and they can even be used for personal development issues and healing. Very similar to hypnotherapy, guided meditations are extremely beneficial and useful. ",
+        "ins_name": "Jane Doe",
+        "category": "Meditation",
+        "available_seats": "27",
+        "price": 1200
+    },
+    {
+        
+        "image": "https://www.picturecorrect.com/wp-content/uploads/2015/04/lunar-eclipse-timelapse.jpg",
+        "cls_name": "Transcendental Meditations",
+        "cls_details":  "Transcendental meditation is used to integrate conscious being and attain inner peace, joy and bliss. This type of meditation has been described as a kind of fourth state of awareness with the first three being the waking state, the dreaming state and the state of deep dreamless sleep.A Sanskrit mantra is communicated by a trained teacher specific to the individual student. The mantra is recited mentally to attune the meditator’s consciousness to vibrations that promote psychological integration. ",
+        "ins_name": "Jane Doe",
+        "category": "Meditation",
+        "available_seats": "15",
+        "price": 4000
+    },
+    {
+        
+        "image": "https://dvyvvujm9h0uq.cloudfront.net/com/articles/1568181023-765128-macro-5jpg.jpg",
+        "cls_name": "Progressive Relaxation Meditations",
+        "cls_details":  "Progressive Muscle Relaxation is a very classic type of meditation, which basically involves the tightening and loosening of various muscles up and down the body. You could do a progressive muscle relaxation by squeezing and releasing the large muscles of the body, either starting at the top of the head or the bottoms of the feet.This type of meditation can be very soothing and relaxing especially before bedtime and it’s a simple practice that even children can do. ",
+        "ins_name": "Jane Doe",
+        "category": "Meditation",
+        "available_seats": "10",
+        "price": 3000
+    },
+
+    {
+        
+        "image": "https://iso.500px.com/wp-content/uploads/2016/05/stock-photo-136664977.jpg",
+        "cls_name": "Bhujangasana",
+        "cls_details":  "Bhujangasana or Cobra Pose is a reclining back-bending asana in hatha yoga and modern yoga as exercise. It is commonly performed in a cycle of asanas in Surya Namaskar, Salute to the Sun, as an alternative to Urdhva Mukha Svanasana, Upward Dog Pose. The Yin Yoga form is Sphinx Pose.",
+        "ins_name": "Jane Doe",
+         "category": "Yoga",
+        "available_seats": "30",
+        "price": 1250
+    },
+    {
+        
+        "image": "https://iso.500px.com/wp-content/uploads/2022/07/Sunset-somewhere-in-Iowa-By-Vath.-Sok-2-1500x1000.jpeg",
+        "name": "Dhanurasana",
+        "cls_details":  "Dhanurasana is a back bending asana in hatha yoga and modern yoga as exercise.Akarna Dhanurasana also called the Archer pose, Bow and Arrow pose, or Shooting Bow pose is an asana in hatha yoga and modern yoga as exercise.",
+        "ins_name": "Jane Doe",
+        "category": "Yoga",
+        "available_seats": "20",
+        "price": 3000
+    },
+    {
+        
+        "image": "https://www.photobox.co.uk/blog/wp-content/uploads/2017/10/4-1.jpg",
+        "cls_name": "Garudasana",
+        "cls_details":  "Garudasana or Eagle Pose is a standing balancing asana in modern yoga as exercise. The name was used in medieval hatha yoga for a different pose. Standing Foot Behind the Head. durvasasana. Standing Foot to Head. trivikramasana a. Standing Foot Behind the Head Forward Bend. ",
+         "ins_name": "Jane Doe",
+        "category": "Yoga",
+        "available_seats": "39",
+        "price": 2000
+    },
+    {
+       
+        "image": "https://cdn.mos.cms.futurecdn.net/ySSdrhvVv2tuPRXsFRedG8.jpg",
+        "cls_name": "Utkatasana",
+        "cls_details":  "Utkatasana, Chair Pose, or fierce pose, is a standing asana in modern yoga as exercise. It was a low squatting asana in medieval hatha yoga.Chair Pose, is a standing asana in modern yoga as exercise. It was a low squatting asana in medieval hatha yoga. ",
+         "ins_name": "Jane Doe",
+        "category": "Yoga",
+        "available_seats": "27",
+        "price": 1200
+    },
+    {
+        
+        "image": "https://www.picturecorrect.com/wp-content/uploads/2015/04/lunar-eclipse-timelapse.jpg",
+        "cls_name": "Trikonasana",
+        "cls_details":  "Trikonasana or Utthita Trikonasana, [Extended] Triangle Pose is a standing asana in modern yoga as exercise. Variations include Baddha Trikonasana and Parivrtta Trikonasana.rikonasana or Utthita Trikonasana, Triangle Pose is a standing asana in modern yoga as exercise. Variations include Baddha With Sanksrit names like Utkatasana and Trikonasana, yoga poses may sound a lot more like spells you'd learn at Hogwarts than shapes you can actually get ",
+        "ins_name": "Jane Doe",
+        "category": "MeditaYogation",
+        "available_seats": "15",
+        "price": 4000
+    },
+    {
+        
+        "image": "https://dvyvvujm9h0uq.cloudfront.net/com/articles/1568181023-765128-macro-5jpg.jpg",
+        "cls_name": "Adho mukha svanasana ",
+        "cls_details":  "Downward Dog Pose or Downward-facing Dog Pose, also called Adho Mukha Shvanasana, is an inversion asana, often practised as part of a flowing sequence of poses, especially Surya Namaskar, the Salute to the Sun. The asana is commonly used in modern yoga as exercise.Adho Mukha Svanasana. Downward Facing Dog Share on Pinterest. How to do it. From all fours, walk your hands 6 inches in front of you.",
+        "ins_name": "Jane Doe",
+        "category": "Yoga",
+        "available_seats": "10",
+        "price": 3000
+    },
+    {
+        
+        "image": "https://www.photobox.co.uk/blog/wp-content/uploads/2017/10/4-1.jpg",
+        "cls_name": "Lotus position    ",
+        "cls_details":  "Lotus position or Padmasana is a cross-legged sitting meditation pose from ancient India, in which each foot is placed on the opposite thigh. It is an ancient asana in yoga, predating hatha yoga, and is widely used for meditation in Hindu, Tantra, Jain, and Buddhist traditions. Some of the common different types of asanas practiced in ashtanga yoga are: Padmasana; Simhasan; The Butterfly; Kapalbhati pranayama; Anulom vilom pranayama .",
+        "ins_name": "Jane Doe",
+        "category": "Yoga",
+        "available_seats": "39",
+        "price": 2000
+    },
+    {
+       
+        "image": "https://cdn.mos.cms.futurecdn.net/ySSdrhvVv2tuPRXsFRedG8.jpg",
+        "cls_name": " Shavasana",
+        "cls_details":  "Shavasana, Corpse Pose, or Mrtasana, is an asana in hatha yoga and modern yoga as exercise, often used for relaxation at the end of a session.Shavasana, Corpse Pose, or Mritasana, is an asana in hatha yoga and modern yoga as exercise, often used for relaxation at the end of a session. It is the usual pose for the practice of yoga nidra meditation, and is an important pose in Restorative Yoga.",
+        "ins_name": "Jane Doe",
+        "category": "Yoga",
+        "available_seats": "27",
+        "price": 1200
+    },
+    {
+        
+        "image": "https://www.picturecorrect.com/wp-content/uploads/2015/04/lunar-eclipse-timelapse.jpg",
+        "cls_name": "Navasana",
+        "cls_details":  "Navasana, Naukasana, Boat Pose, or Paripurna Navasana is a seated asana in modern yoga as exercise.Take Navasana, for example. Visually speaking, the boat posture imitates a ship on the water. Symbolically, the practitioner of Navasana is making a journey ",
+         "ins_name": "Jane Doe",
+        "category": "Yoga",
+        "available_seats": "15",
+        "price": 4000
+    },
+    {
+        
+        "image": "https://dvyvvujm9h0uq.cloudfront.net/com/articles/1568181023-765128-macro-5jpg.jpg",
+        "cls_name": "Padmaasana",
+        "cls_details":  "Padma asana is the preferred asana of choice of all yogis. In the beginning it may be hard to do this, but just a few minutes of practice every day and you will magically feel your hips, pelvis and legs open up. This asana is great for all the muscles of your legs, spine, for digestion and even for circulation.",
+        "ins_name": "Jane Doe",
+        "category": "Yoga",
+        "available_seats": "10",
+        "price": 5000
     }
 ]
