@@ -19,7 +19,7 @@ const AddCls = () => {
 
         if (data.email && user.email) {
             const saveClass = { name: data.name, email: data.email, image: data.image, cls_name: data.cls_name, cls_image: data.cls_image, available_seats: data.available_seats, price: data.price }
-            fetch(`http://localhost:5000/instructor`, {
+            fetch(`https://yoga-meditation-server.vercel.app/instructor`, {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'

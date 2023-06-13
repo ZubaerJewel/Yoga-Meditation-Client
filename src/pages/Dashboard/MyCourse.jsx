@@ -18,7 +18,7 @@ const MyCourse = () => {
             confirmButtonText: 'Yes, delete it!'
         }).then((result) => {
             if (result.isConfirmed) {
-                fetch(`http://localhost:5000/selectcls/${data._id}`, {
+                fetch(`https://yoga-meditation-server.vercel.app/selectcls/${data._id}`, {
                     method: 'DELETE'
                 })
                     .then(res => res.json())

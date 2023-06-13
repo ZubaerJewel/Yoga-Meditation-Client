@@ -16,7 +16,7 @@ const CardClass = ({ data }) => {
         console.log(data);
         if (user && user.email) {
             const selectedCls = { name: user.displayName ,email: user.email, courseId: _id, course: name, image, Ins_name, available_seats, price }
-            fetch(`http://localhost:5000/selectcls`, {
+            fetch(`https://yoga-meditation-server.vercel.app/selectcls`, {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'
