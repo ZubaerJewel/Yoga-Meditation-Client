@@ -10,11 +10,14 @@ import Login from '../pages/Others/Login';
 import PrivateRoute from './PrivateRoute';
 import Dashboard from '../Layout/Dashboard';
 import MyCourse from '../pages/Dashboard/MyCourse';
+import Payment from '../pages/Dashboard/Payment';
 import AllUsers from '../pages/Dashboard/AllUsers';
 import UHome from '../Layout/UHome';
 import AddCls from '../pages/Dashboard/Instructor/AddCls';
 import MyCls from '../pages/Dashboard/Instructor/MyCls';
+import MngCls from '../pages/Dashboard/MngCls';
 import AdminRoute from '../Routes/AdminRoute'; 
+import UpdateClass from '../pages/Dashboard/Instructor/UpdateClass';
 
 
 export const router = createBrowserRouter([
@@ -57,6 +60,10 @@ export const router = createBrowserRouter([
         element: <AdminRoute><AllUsers></AllUsers></AdminRoute>
       },
       {
+        path: 'mngCls',
+        element: <AdminRoute><MngCls></MngCls></AdminRoute>
+      },
+      {
         path: 'addCls',
         element: <AddCls></AddCls>
       },
@@ -65,8 +72,16 @@ export const router = createBrowserRouter([
         element: <MyCls></MyCls>
       },
       {
+        path: 'updateClass',
+        element: <UpdateClass></UpdateClass>
+      },
+      {
         path: 'myCourse',
         element: <MyCourse></MyCourse>
+      },
+      {
+        path: 'payment/:id',
+        element: <Payment></Payment>
       }
     ]
   }

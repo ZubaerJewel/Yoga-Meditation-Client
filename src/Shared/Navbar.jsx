@@ -49,8 +49,8 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div>
-                    <img className='h-[40px]  w-[55px]' src="https://i.ibb.co/fSKKn6J/logo.webp" alt="" />
-                    <p className="normal-case font-semibold"> <span className="text-4xl text-purple-400">InNeR</span ><span className="text-1xl text-purple-500">EnGinEeriNg</span> </p>
+                    <img className='h-[40px] w-[55px]' src="../../public/istockphoto-1402674567-612x612.jpg" alt="" />
+                    <p className="normal-case text-2xl font-semibold">Summer Camp</p>
                 </div>
             </div>
             <div className="navbar-center hidden lg:flex">
