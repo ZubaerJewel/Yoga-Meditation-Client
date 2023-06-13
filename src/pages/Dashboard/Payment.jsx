@@ -1,8 +1,8 @@
 import { Helmet } from 'react-helmet-async';
-import CheckoutForm from '../../pages/Dashboard/CheckoutForm';
 import { loadStripe } from '@stripe/stripe-js';
 import { Elements } from '@stripe/react-stripe-js';
 import useCart from '../../hooks/useCart';
+import CheckoutForm from './CheckOutForm';
 
 
 const stripePromise = loadStripe(import.meta.env.VITE_Payment_Gateway_PK);
