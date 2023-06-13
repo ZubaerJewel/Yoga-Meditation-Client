@@ -17,9 +17,9 @@ const Classes = () => {
             <div className="divider"></div> 
             <div className='grid md:grid-cols-3 gap-4'>
                 {
-                    classes.map(ta => <CardClass 
-                        key={ta._id}
-                        ta={ta}
+                    classes.map(data => <CardClass 
+                        key={data._id}
+                        data={data}
                         ></CardClass>)
                 }
             </div>
@@ -30,6 +30,9 @@ const Classes = () => {
             // <p>Architectural photography</p>
             // <p>Abstract photography</p>
             // <p>Macro photography</p> */}
+
+
+            
         </div>
     );
 };
