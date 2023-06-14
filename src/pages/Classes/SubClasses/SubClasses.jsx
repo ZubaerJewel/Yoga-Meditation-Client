@@ -61,7 +61,7 @@ const SubClasses = ({ data }) => {
                                    {
                                         (isAdmin || isInstructors) ? <>
                                              <Button variant="success" disabled={true}>
-                                                  Selected
+                                                  Select
                                              </Button>
                                         </> : <>
                                              {

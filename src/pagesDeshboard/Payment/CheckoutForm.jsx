@@ -1,7 +1,5 @@
 import { CardElement, useElements, useStripe } from "@stripe/react-stripe-js";
 import { useContext, useEffect, useState } from "react";
-// import { AuthContext } from "../../Providers/AuthProvider";
-// import useAxiosSecure from "../../hooks/useAxiosSecure";
 import Swal from "sweetalert2";
 import { useNavigate } from "react-router-dom";
 import useAxiosSecure from "../../hooks/useAxiouSeoure";
@@ -27,12 +25,12 @@ const CheckoutForm = ({ price, lectureId, lecture }) => {
         if (price > 0) {
             axiosSecure.post('/create-payment-intent', { price: parseInt(price) })
                 .then(res => {
-                    // console.log(res.data.clientSecret)
+                    console.log(res.data.clientSecret)
                     setClientSecret(res.data.clientSecret);
                 })
         }
     }, [price, axiosSecure])
-    // console.log(clientSecret);
+    console.log(clientSecret);
 
 
     const handleSubmit = async (event) => {
@@ -104,14 +102,14 @@ const CheckoutForm = ({ price, lectureId, lecture }) => {
                     if (res.data) {
                         // display confirm
 
-                        axiosSecure.patch(`/classes-cart/${lecture._id}`)
+                        axiosSecure.patch(`/selected/${_id}`)
                             .then(res => {
                                 if (res.data) {
                                     Swal.fire({
                                         icon: 'success',
                                         title: 'Payment successfully',
                                     })
-                                    navigate('/dashboard/studentClasses')
+                                    navigate('/dashboard/enrolledClass')
                                 }
                             })
 

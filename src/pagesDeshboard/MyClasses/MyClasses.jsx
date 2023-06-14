@@ -57,7 +57,7 @@ const MyClasses = () => {
                                                        </span>
                                                      }
                                                      </>:<>
-                                                     <span className=' text-warning'>padding..</span>
+                                                     <span className=' text-warning'>panding..</span>
                                                      </>  
                                                   }
                                              </td>

@@ -7,7 +7,6 @@ import { useState } from 'react';
 import useAxiosSecure from '../../hooks/useAxiouSeoure';
 
 
-
 const Payment = () => {
     const {id} = useParams();
     const [axiosSecure] = useAxiosSecure();
@@ -16,8 +15,9 @@ const Payment = () => {
     const [lectureId2, setLectureId2] = useState(null);
     axiosSecure(`https://yoga-meditation-server.vercel.app/selected/${id}`)
     .then(res => {
-        setPrice(res.data?.lecture?.price);
-        setLectureId2(res.data?.lecture);
+     console.log(res);
+        setPrice(res.data?.price);
+        setLectureId2(res.data?.name);
         setLectureId(res.data?._id);
     })
 
