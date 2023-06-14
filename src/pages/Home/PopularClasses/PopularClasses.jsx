@@ -16,7 +16,7 @@ const PopularClasses = () => {
 
      return (
           <div className='my-5 container'>
-               <h1 className=' text-center'>Popular Classes</h1>
+               <h1 className=' text-center fw-semibold text-success'>Popular Classes</h1>
                <div>
                     <div className="row my-4  no-gutter">
                          {

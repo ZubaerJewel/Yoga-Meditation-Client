@@ -5,8 +5,8 @@ import smrImg from '../../../assets/smr.jpg'
 
 const Service = () => {
      return (
-          <div className=' mt-lg-4 pt-3 container'>
-               <h1 className=' text-center'> Awesome Service!</h1>
+          <div className='text-success mt-lg-4 pt-3 container'>
+               <h1 className=' text-center fw-semibold '> Awesome Service!</h1>
                <div className="row">
                     <div className="col-lg-6">
                          <div className=' row d-flex align-items-center mt-5'>

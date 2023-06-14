@@ -133,9 +133,9 @@ const Register = () => {
      return (
           <div className=' row mx-lg-5 px-lg-5 align-items-center mt-4'>
                <div className=' col-lg-6 my-lg-5'>
-                    <img className=' img-fluid w-100 imgHeight' src='https://img.freepik.com/free-vector/tablet-login-concept-illustration_114360-7873.jpg?w=740&t=st=1684338884~exp=1684339484~hmac=29bb2f06c8bc57224e5cdbbbfb70e230a9791b942d420cc8f97b06ff27106d20' alt="" />
+                    <img className=' img-fluid w-100 imgHeight' src='https://i.ibb.co/m98R60y/sign-up-concept-illustration-114360-7965.jpg' alt="" />
                </div>
-               <div className=' col-lg-6 '>
+               <div className='text-success fw-semibold col-lg-6 '>
                     <div className=' my-lg-5'>
                          <Form onSubmit={handleSubmit(onSubmit)}>
                               <div className='border rounded px-5 py-4 shadow-lg '>
@@ -194,12 +194,12 @@ const Register = () => {
                                    <p className=' text-danger'>{error}</p>
                                    <p className=' text-success'>{success}</p>
                                    <div className="d-grid gap-2 mt-4">
-                                        <Button variant="danger" type="submit">
+                                        <Button variant="success" type="submit">
                                              <b>Sign Up</b>
                                         </Button>
                                         <div className=' my-3 text-center'>
                                              <small className='me-1 fs-6'>Have an account? </small>
-                                             <Link to='/login' className=' text-decoration-none text-danger fw-semibold'>Login</Link>
+                                             <Link to='/login' className=' text-decoration-none text-bg-success fw-semibold'>Login</Link>
                                         </div>
                                    </div>
                               </div>

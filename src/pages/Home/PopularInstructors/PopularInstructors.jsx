@@ -19,7 +19,7 @@ const PopularInstructors = () => {
 
      return (
           <div className='my-5 container'>
-               <h1 className=' text-center'>Popular Instructors</h1>
+               <h1 className=' text-success fw-semibold text-center'>Popular Instructors</h1>
                <div>
                     <div className="row my-4  no-gutter">
                          {

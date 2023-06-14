@@ -12,7 +12,7 @@ const MyClasses = () => {
      const navigate = useNavigate()
 
      // server data get start 
-     const url = `https://yoga-meditation-server.vercel.app/classes?email=${user?.email}`;
+     const url = `https://yoga-meditation-server.vercel.app/class?email=${user?.email}`;
      useEffect(() => {
           fetch(url)
                .then(res => res.json())

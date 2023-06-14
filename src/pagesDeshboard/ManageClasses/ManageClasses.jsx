@@ -12,7 +12,7 @@ const ManageClasses = () => {
      const navigate = useNavigate()
 
      useEffect(() => {
-          fetch('https://yoga-meditation-server.vercel.app/classes')
+          fetch('https://yoga-meditation-server.vercel.app/class')
                .then(res => res.json())
                .then(data => {
                     setClassesData(data);
@@ -21,7 +21,7 @@ const ManageClasses = () => {
      }, [])
 
      const handelStatusApproved = (id)=>{
-          fetch(`https://yoga-meditation-server.vercel.app/classes/${id}`,{
+          fetch(`https://yoga-meditation-server.vercel.app/class/${id}`,{
                method: 'PATCH',
                headers: {
                     'content-type':'application/json'
@@ -40,7 +40,7 @@ const ManageClasses = () => {
           })
      }
      const handelStatusDenied = (id)=>{
-          fetch(`https://yoga-meditation-server.vercel.app/classes/${id}`,{
+          fetch(`https://yoga-meditation-server.vercel.app/class/${id}`,{
                method: 'PATCH',
                headers: {
                     'content-type':'application/json'

@@ -6,7 +6,7 @@ import Footer from '../shared/Footer/Footer';
 const Main = () => {
      const location = useLocation()
      return (
-          <div>
+          <div className='text-bg-info'>
                <Header></Header>
                <Outlet></Outlet>
                <Footer></Footer>

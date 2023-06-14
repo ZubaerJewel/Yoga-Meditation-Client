@@ -25,7 +25,7 @@ const SubClasses = ({ data }) => {
      }
      const handelSelected = (selectData) => {
           //   server data post 
-          fetch('https://yoga-meditation-server.vercel.app/selectcls', {
+          fetch('https://yoga-meditation-server.vercel.app/selected', {
                method: 'POST',
                headers: {
                     'content-type': 'application/json'

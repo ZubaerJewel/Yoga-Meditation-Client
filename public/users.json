@@ -1,0 +1,62 @@
+[
+    {
+        
+        "image": "https://i1.adis.ws/i/canon/rf100mm-f2.8-l-macro-is-usm-lifestyle-20-pro_43a555fc26ff4bdbbbcb9cd9e49cde45",
+        "": "Jane Doe",
+        "email": "fineart@gmail.com",
+        "cls_name": "Fine-art photography",
+        "cls_image": "https://iso.500px.com/wp-content/uploads/2016/05/stock-photo-136664977.jpg",
+        "available_seats": "30",
+        "price": 1250
+    },
+    {
+        
+        "image": "https://adaptalux.com/wp-content/uploads/2018/05/Tonya-Wilhelm.jpg",
+        "ins_name": "pane Doe",
+        "email": "landscape@gmail.com",
+        "cls_name": "Landscape photography",
+        "cls_image": "https://iso.500px.com/wp-content/uploads/2022/07/Sunset-somewhere-in-Iowa-By-Vath.-Sok-2-1500x1000.jpeg",
+        "available_seats": "20",
+        "price": 3000
+    },  
+    {
+        
+        "image": "https://pbs.twimg.com/profile_images/573568595289993217/HYTdvoKj_400x400.jpeg",
+        "ins_name": "Lane Doe",
+        "email": "fashion@gmail.com",
+        "cls_name": "Fashion photography",
+        "cls_image": "https://www.photobox.co.uk/blog/wp-content/uploads/2017/10/4-1.jpg",
+        "available_seats": "39",
+        "price": 2000
+    },
+    {
+        
+        "image": "https://cdn.clippingpath.in/wp-content/uploads/2021/07/Famous-Macro-Photographers.jpg",
+        "ins_name": "Kane Doe",
+        "email": "architectural@gmail.com",
+        "cls_name": "Architectural photography",
+        "cls_image": "https://cdn.mos.cms.futurecdn.net/ySSdrhvVv2tuPRXsFRedG8.jpg",
+        "available_seats": "27",
+        "price": 1200
+    },
+    {
+       
+        "image": "https://st.depositphotos.com/1809585/2643/i/600/depositphotos_26439203-stock-photo-beautiful-woman-taking-a-photography.jpg",
+        "ins_name": "Fane Doe",
+        "email": "timelapse@gmail.com",
+        "cls_name": "Time-lapse photography",
+        "cls_image": "https://www.picturecorrect.com/wp-content/uploads/2015/04/lunar-eclipse-timelapse.jpg",
+        "available_seats": "15",
+        "price": 4000
+    },
+    {
+        
+        "image": "https://t3.ftcdn.net/jpg/02/91/98/20/360_F_291982066_YUjP13pWRuX31nINldQK0VfNr9UhCFsa.jpg",
+        "ins_name": "Mane Doe",
+        "email": "macro@gmail.com",
+        "cls_name": "Macro photography",
+        "cls_image": "https://dvyvvujm9h0uq.cloudfront.net/com/articles/1568181023-765128-macro-5jpg.jpg",
+        "available_seats": "10",
+        "price": 3000
+    }
+]

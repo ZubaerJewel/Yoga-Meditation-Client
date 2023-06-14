@@ -8,7 +8,7 @@ import PopularClasses from './PopularClasses/PopularClasses';
 const Home = () => {
      useTitle('Home')
      return (
-          <div className=' my-5 py-5'>
+          <div className='text-bg-info my-5 py-5'>
                <Slider></Slider>
                <PopularClasses></PopularClasses>
                <PopularInstructors></PopularInstructors>

@@ -123,26 +123,26 @@ const Login = () => {
      // handelGoogleRegister part end
 
      // handelGitHubRegister part start
-     const handelGitHubRegister = () => {
-          githubSingIn()
-               .then((result) => {
-                    const user = result.user;
-                    console.log(user);
-                    if (user) {
-                         Swal.fire({
-                              title: 'Success!',
-                              text: 'Login Success !!',
-                              icon: 'success',
-                              confirmButtonText: 'Ok'
-                         })
-                    }
-                    setUser(user)
-                    navigate(from, { replace: true })
-               }).catch((error) => {
-                    const errorMessage = error.message;
-                    setError(errorMessage)
-               });
-     }
+     // const handelGitHubRegister = () => {
+     //      githubSingIn()
+     //           .then((result) => {
+     //                const user = result.user;
+     //                console.log(user);
+     //                if (user) {
+     //                     Swal.fire({
+     //                          title: 'Success!',
+     //                          text: 'Login Success !!',
+     //                          icon: 'success',
+     //                          confirmButtonText: 'Ok'
+     //                     })
+     //                }
+     //                setUser(user)
+     //                navigate(from, { replace: true })
+     //           }).catch((error) => {
+     //                const errorMessage = error.message;
+     //                setError(errorMessage)
+     //           });
+     // }
      // handelGitHubRegister part end
 
      // Reset Password part start
@@ -169,7 +169,7 @@ const Login = () => {
      return (
           <div className=' row mx-lg-5 px-lg-5 align-items-center mt-3'>
                <div className=' col-lg-6 mt-lg-5 pt-lg-5 '>
-                    <img className=' img-fluid w-100 imgHeight' src="https://img.freepik.com/free-vector/tablet-login-concept-illustration_114360-7873.jpg?w=740&t=st=1684338884~exp=1684339484~hmac=29bb2f06c8bc57224e5cdbbbfb70e230a9791b942d420cc8f97b06ff27106d20" alt="" />
+                    <img className=' img-fluid w-100 imgHeight' src="https://i.ibb.co/ZYYj7Vy/sign-page-abstract-concept-vector-illustration-107173-25670.jpg" alt="" />
                </div>
                <div className=' col-lg-6'>
                     <div className=' my-lg-5 pt-lg-5'>
@@ -209,22 +209,22 @@ const Login = () => {
                                    <p className=' text-danger'>{error}</p>
                                    <p className=' text-success'>{success}</p>
                                    <div className="d-grid gap-2 mt-4">
-                                        <Button variant="danger" type="submit">
+                                        <Button variant="success" type="submit">
                                              <b>Sign In</b>
                                         </Button>
                                         <div>
                                              <small>Create your new Password?</small>
-                                             <button onClick={handelResetPassword} className='btn btn-link'>Reset Password</button>
+                                             <button onClick={handelResetPassword} className='btn fw-semibold btn-link text-success'>Reset Password</button>
                                         </div>
                                         <div className="d-grid gap-2 mt-3 mb-2 col-9 mx-auto">
-                                             <Button onClick={handelGoogleRegister} className="btn btn-success" type="button"> <span className=' fs-5 text-light'><ImGoogle2 /></span> Sign-in with Google</Button>
+                                             <Button onClick={handelGoogleRegister} className="btn text-light btn-success" type="button"> <span className=' fs-5 text-light'><ImGoogle2 /></span> Sign-in with Google</Button>
                                         </div>
-                                        <div className="d-grid gap-2 mb-3 col-9 mx-auto">
+                                        {/* <div className="d-grid gap-2 mb-3 col-9 mx-auto">
                                              <Button onClick={handelGitHubRegister} className="btn btn-dark" type="button"> <span className=' fs-5 text-light'><AiOutlineGithub /></span> Sign-in with GitHub</Button>
-                                        </div>
+                                        </div> */}
                                         <div className=' my-3 text-center'>
                                              <small className='me-1 fs-6'>Have an account? </small>
-                                             <Link to='/register' className=' text-decoration-none text-danger fw-semibold'>Register</Link>
+                                             <Link to='/register' className=' text-decoration-none text-success btn-link fw-semibold'>Register</Link>
                                         </div>
                                    </div>
                               </div>

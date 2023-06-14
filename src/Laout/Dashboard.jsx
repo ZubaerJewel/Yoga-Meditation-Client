@@ -22,7 +22,7 @@ const Dashboard = () => {
      const [isAdmin] = useAdmin();
      const [isInstructors] = useInstructors();
      return (
-          <div className='  mt-5'>
+          <div className='text-bg-info  mt-5'>
                <div className=' mt-5 pt-5 '>
                     <div className='row '>
                          <div className="col-lg-2 bg-light py-5">

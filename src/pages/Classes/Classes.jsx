@@ -7,7 +7,7 @@ const Classes = () => {
      const [isLoading, setIsLoading] = useState(true);
      const [approvedData, setApprovedData] = useState([]);
      useEffect(() => {
-          fetch('https://yoga-meditation-server.vercel.app/classes')
+          fetch('https://yoga-meditation-server.vercel.app/class')
                .then(res => res.json())
                .then(data => {
                     const approvedClasses = data.filter(data => data?.status === "approved")
