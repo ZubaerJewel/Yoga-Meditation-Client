@@ -1,11 +1,33 @@
-import React from 'react';
+const stripePromise = loadStripe(import.meta.env.VITE_stripe_test_key);
+import { Elements } from '@stripe/react-stripe-js';
+import { loadStripe } from '@stripe/stripe-js';
+import CheckoutForm from './CheckoutForm';
+import { useLocation, useParams } from 'react-router-dom';
+import { useState } from 'react';
+import useAxiosSecure from '../../hooks/useAxiouSeoure';
+
+
 
 const Payment = () => {
-     return (
-          <div className=' mt-3 '>
-               <h1 className=' text-center'>Payment Page</h1> 
-          </div>
-     );
+    const {id} = useParams();
+    const [axiosSecure] = useAxiosSecure();
+    const [price, setPrice] = useState(null);
+    const [lectureId, setLectureId] = useState(null);
+    const [lectureId2, setLectureId2] = useState(null);
+    axiosSecure(`https://yoga-meditation-server.vercel.app/selected/${id}`)
+    .then(res => {
+        setPrice(res.data?.lecture?.price);
+        setLectureId2(res.data?.lecture);
+        setLectureId(res.data?._id);
+    })
+
+    return (
+        <section className='mx-40 min-h-screen'>
+            <Elements  stripe={stripePromise}>
+                <CheckoutForm id={id} lecture={lectureId2} lectureId={lectureId} price={price} />
+            </Elements>
+        </section>
+    );
 };
 
 export default Payment;
