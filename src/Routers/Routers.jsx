@@ -58,6 +58,7 @@ export const router = createBrowserRouter([
                {
                     path:"payment/:id",
                     element:<PrivateRoute><Payment></Payment></PrivateRoute>,
+                    loader: ({ params }) => fetch(`https://yoga-meditation-server.vercel.app/selected/${params.id}`)
                },
                {
                     path:"enrolledClass",
