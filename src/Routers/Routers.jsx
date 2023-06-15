@@ -19,6 +19,7 @@ import InstructorsRoute from "./InstructorsRoute";
 import EnrolledClass from "../pagesDeshboard/EnrolledClass/EnrolledClass";
 import Selected from "../pagesDeshboard/Selected/Selected";
 import Payment from "../pagesDeshboard/Payment/Payment";
+import PaymentHistory from "../pagesDeshboard/Payment/PaymentHistory";
 export const router = createBrowserRouter([
      {
           path: "/",
@@ -58,11 +59,15 @@ export const router = createBrowserRouter([
                {
                     path:"payment/:id",
                     element:<PrivateRoute><Payment></Payment></PrivateRoute>,
-                    loader: ({ params }) => fetch(`https://yoga-meditation-server.vercel.app/selected/${params.id}`)
+                    loader: ({ params }) => fetch(`https://yoga-meditation-server.vercel.app/cart/${params.id}`)
                },
                {
                     path:"enrolledClass",
                     element:<PrivateRoute><EnrolledClass></EnrolledClass></PrivateRoute>
+               },
+               {
+                    path:"paymentHistory",
+                    element:<PrivateRoute><PaymentHistory></PaymentHistory></PrivateRoute>
                },
                {
                     path:"addClass",

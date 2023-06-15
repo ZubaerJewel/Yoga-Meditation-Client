@@ -1,47 +1,54 @@
-import { useContext, useEffect, useState } from "react";
-import { AuthContext } from "../../AuthProvider/AuthProvider";
-import useAxiosSecure from "../../hooks/useAxiouSeoure";
-
+import { useEffect, useState } from "react";
+import useAuth from "../../hooks/useAuth";
+import useTitle from "../../hooks/useTitle";
 
 const PaymentHistory = () => {
-    const [data, setData] = useState([]);
-    const [axiosSecure] = useAxiosSecure();
-    const {user} = useContext(AuthContext);
-    useEffect(() => {
-        axiosSecure(`/payment-details/${user.email}`)
-            .then(res => setData(res.data));
-    }, []);
-    // console.log(data);
-    return (
-        <section>
-            <div className="overflow-x-auto mx-40 min-h-screen">
-                <table className="table">
-                    <thead>
-                        <tr>
-                            <th>#</th>
-                            <th>Lecture Name</th>
-                            <th>Instructor</th>
-                            <th>Transaction ID</th>
-                            <th>Time</th>
-                        </tr>
-                    </thead>
-                    <tbody className='items-center'>
-                        {
-                            data?.map((data, index) =>
-                                <tr key={data._id}>
-                                    <th>{index + 1}</th>
-                                    <td>{data.lecture.name}</td>
-                                    <td>{data.lecture.instructor}</td>
-                                    <td>{data.transactionId}</td>
-                                    <td>{data.date}</td>
-                                </tr>
-                            )
-                        }
-                    </tbody>
-                </table>
-            </div>
-        </section>
-    );
+  const { user } = useAuth();
+  const { title } = useTitle();
+  const [payments, setPayments] = useState([]);
+   title = "My Payments";
+  useEffect(() => {
+    fetch(`https://yoga-meditation-server.vercel.app/payments?email=${user?.email}`)
+      .then((res) => res.json())
+      .then((data) => setPayments(data));
+  }, []);
+
+  return (
+    <div className="mt-10">
+     
+      <div className="">
+        <table className="table">
+          {/* head */}
+          <thead className="fw-semibold text-dark">
+            <tr>
+              <th>
+                <label>#</label>
+              </th>
+              <th>Class Name</th>
+              <th>Transaction ID</th>
+              <th>Price</th>
+              <th>Date and Time Of Payment</th>
+            </tr>
+          </thead>
+          <tbody>
+            {/* row 1 */}
+            {payments?.map((item, i) => (
+              <tr key={item._id}>
+                <th>
+                  <label>{i + 1}</label>
+                </th>
+                <td>{item.itemNames}</td>
+                <td>{item.transactionId}</td>
+                <td className="text-center">{item.price}</td>
+                <td>${item.date}</td>
+              </tr>
+            ))}
+          </tbody>
+          {/* foot */}
+        </table>
+      </div>
+    </div>
+  );
 };
 
 export default PaymentHistory;

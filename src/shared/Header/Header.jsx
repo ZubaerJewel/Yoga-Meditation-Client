@@ -42,7 +42,7 @@ const Header = () => {
                          <Navbar.Toggle aria-controls="navbarScroll" />
                          <Navbar.Collapse id="navbarScroll">
                               <Nav
-                                   className="mx-auto text-info my-2 my-lg-0 fw-semibold"
+                                   className="ml-33 text-info my-2  my-lg-0 fw-semibold"
                                    style={{ maxHeight: '100px' }}
                                    navbarScroll
                               >
