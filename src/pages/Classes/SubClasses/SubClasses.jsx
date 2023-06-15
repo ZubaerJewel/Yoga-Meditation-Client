@@ -67,11 +67,11 @@ const SubClasses = ({ data }) => {
                                              {
                                                   user ? <>
                                                        <Button onClick={() => handelSelected(selectData)} variant="success">
-                                                            <Link className='text-decoration-none text-white' to={`/dashboard/selected`}>Selected</Link>
+                                                            <Link className='text-decoration-none text-white' to={`/dashboard/selected`}>Select</Link>
                                                        </Button>
                                                   </> : <>
                                                        <Button variant="success">
-                                                            <Link className='text-decoration-none text-white' to={`/login`}>Selected</Link>
+                                                            <Link className='text-decoration-none text-white' to={`/login`}>Select</Link>
                                                        </Button>
                                                   </>
                                              }

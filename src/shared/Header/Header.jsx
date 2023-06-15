@@ -6,7 +6,7 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import { useNavigate } from 'react-router-dom';
 import { Navbar } from 'react-bootstrap';
-import logo from '../../assets/logoS.jpeg'
+
 import ActiveLink from '../../ActiveLink/ActiveLink';
 import { AuthContext } from '../../AuthProvider/AuthProvider';
 import useAdmin from '../../hooks/useAdmin';
@@ -42,7 +42,7 @@ const Header = () => {
                          <Navbar.Toggle aria-controls="navbarScroll" />
                          <Navbar.Collapse id="navbarScroll">
                               <Nav
-                                   className="ml-33 text-info my-2  my-lg-0 fw-semibold"
+                                   className="mx-auto text-info my-2  my-lg-0 fw-semibold"
                                    style={{ maxHeight: '100px' }}
                                    navbarScroll
                               >

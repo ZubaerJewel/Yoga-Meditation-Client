@@ -1,5 +1,6 @@
 import React from 'react';
 import './Slider.css'
+import { Link } from 'react-router-dom';
 
 import { BsFillArrowLeftCircleFill, BsFillArrowRightCircleFill } from 'react-icons/bs';
 
@@ -20,7 +21,12 @@ const Slider = () => {
                                              <p className=' fs-6 col-lg-5 fw-semibold text-info'>“Yoga's incorporation of meditation and breathing can help improve a person's mental well-being.Regular yoga practice creates mental clarity and calmness; increases body awareness; relieves chronic stress patterns; relaxes the mind; centers attention; and sharpens concentration.”</p>
 
                                              <div className='mt-3'>
-                                                  <button type="button" className="btn btn-success me-3 mb-2">Discover More</button>
+                                             <div>
+                                                       <Link to={`classes`}>
+                                                       <button type="button" className="btn btn-info me-3 mb-2">Discover More</button>
+                                                       </Link>
+                                                  </div>
+                                                  
                                                   {/* <button type="button" className="btn text-light btn-success mb-2">Latest Project</button> */}
                                              </div>
                                         </div>
@@ -38,7 +44,11 @@ const Slider = () => {
                                              <p className=' fs-6 col-lg-5 fw-semibold text-info'>“Yoga's incorporation of meditation and breathing can help improve a person's mental well-being.Regular yoga practice creates mental clarity and calmness; increases body awareness; relieves chronic stress patterns; relaxes the mind; centers attention; and sharpens concentration.”</p>
 
                                              <div className='mt-3'>
-                                                  <button type="button" className="btn btn-success me-3 mb-2">Discover More</button>
+                                             <div>
+                                                       <Link to={`classes`}>
+                                                       <button type="button" className="btn btn-info me-3 mb-2">Discover More</button>
+                                                       </Link>
+                                                  </div>
                                                   {/* <button type="button" className="btn text-light btn-success mb-2">Latest Project</button> */}
                                              </div>
                                         </div>
@@ -56,8 +66,11 @@ const Slider = () => {
                                              <p className=' fs-6 col-lg-5 fw-semibold text-info'>“Yoga's incorporation of meditation and breathing can help improve a person's mental well-being.Regular yoga practice creates mental clarity and calmness; increases body awareness; relieves chronic stress patterns; relaxes the mind; centers attention; and sharpens concentration.”</p>
 
                                              <div className='mt-3'>
-                                                  <button type="button" className="btn btn-success me-3 mb-2">Discover More</button>
-                                                  {/* <button type="button" className="btn text-light btn-success mb-2">Latest Project</button> */}
+                                             <div>
+                                                       <Link to={`classes`}>
+                                                       <button type="button" className="btn btn-info me-3 mb-2">Discover More</button>
+                                                       </Link>
+                                                  </div>{/* <button type="button" className="btn text-light btn-success mb-2">Latest Project</button> */}
                                              </div>
                                         </div>
                                    </div>
@@ -74,8 +87,11 @@ const Slider = () => {
                                              <p className=' fs-6 col-lg-5 fw-semibold text-info'>“Yoga's incorporation of meditation and breathing can help improve a person's mental well-being.Regular yoga practice creates mental clarity and calmness; increases body awareness; relieves chronic stress patterns; relaxes the mind; centers attention; and sharpens concentration.”</p>
 
                                              <div className='mt-3'>
-                                                  <button type="button" className="btn btn-success me-3 mb-2">Discover More</button>
-                                                  {/* <button type="button" className="btn text-light btn-success mb-2">Latest Project</button> */}
+                                             <div>
+                                                       <Link to={`classes`}>
+                                                       <button type="button" className="btn btn-info me-3 mb-2">Discover More</button>
+                                                       </Link>
+                                                  </div>{/* <button type="button" className="btn text-light btn-success mb-2">Latest Project</button> */}
                                              </div>
                                         </div>
                                    </div>
@@ -92,8 +108,11 @@ const Slider = () => {
                                              <p className=' fs-6 col-lg-5 fw-semibold text-info'>“Yoga's incorporation of meditation and breathing can help improve a person's mental well-being.Regular yoga practice creates mental clarity and calmness; increases body awareness; relieves chronic stress patterns; relaxes the mind; centers attention; and sharpens concentration.”</p>
 
                                              <div className='mt-3'>
-                                                  <button type="button" className="btn btn-success  me-3 mb-2">Discover More</button>
-                                                  {/* <button type="button" className="btn text-light btn-success mb-2">Latest Project</button> */}
+                                             <div>
+                                                       <Link to={`classes`}>
+                                                       <button type="button" className="btn btn-info me-3 mb-2">Discover More</button>
+                                                       </Link>
+                                                  </div>{/* <button type="button" className="btn text-light btn-success mb-2">Latest Project</button> */}
                                              </div>
                                         </div>
                                    </div>

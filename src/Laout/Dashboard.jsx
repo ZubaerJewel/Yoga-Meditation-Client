@@ -79,6 +79,10 @@ const Dashboard = () => {
                                                   <ActiveLink to='/dashboard/enrolledClass'><span className=' fs-4 me-1'><GiRolledCloth/></span>Enrolled Class</ActiveLink>
                                              </div>
 
+                                             <div>
+                                                  <ActiveLink to='/dashboard/paymentHistory'><span className=' fs-4 me-1'><GiRolledCloth/></span>Payment History</ActiveLink>
+                                             </div>
+
                                         </>
                                    }
                               </div>

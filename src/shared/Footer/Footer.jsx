@@ -6,6 +6,7 @@ import {SiGmail} from 'react-icons/si';
 import {BiPhoneCall} from 'react-icons/bi';
 import {HiOutlineLocationMarker} from 'react-icons/hi';
 import ActiveLink from '../../ActiveLink/ActiveLink';
+import { Navbar } from 'react-bootstrap';
 
 const Footer = () => {
      return (
@@ -15,11 +16,10 @@ const Footer = () => {
                          <div className="row d-flex ">
                               <div className="col-lg-4">
                                    <div className="skk mx-lg-3">
-                                        <div className="sm">
+                                        <div className="">
                                              <h2 className="text-info mt-4 text-center">Office Address</h2>
                                         </div>
-                                        <p className="text-justify mt-4 text-info ms-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-                                             tempore animi quam in</p>
+                                        <p className="text-justify mt-4 text-info ms-2">yoga and meditation is very important for your daily basis .you will be gain a healthy life physical and mentally.so,learn more about this with our best instructors wait for you.</p>
                                         <ul className="list-unstyled ms-2">
                                              <li>
                                                   <p className='d-flex align-content-center'>
@@ -45,7 +45,7 @@ const Footer = () => {
                               </div>
                               <div className="col-lg-4 text-info">
                                    <div className="mx-lg-3 ps-lg-5">
-                                        <div className="sm">
+                                        <div className="">
                                              <h2 className="text-info mt-4 text-center">Important Link</h2>
                                         </div>
                                         <ul className="list-unstyled mt-4  text-info linkStyle">
@@ -67,13 +67,13 @@ const Footer = () => {
                               </div>
                               <div className="col-lg-4">
                                    <div className="ps-lg-3">
-                                        <div className="sm">
+                                        {/* <div className="sm">
                                              <h2 className="text-info mt-4"></h2>
-                                        </div>
-                                        <div className="example btn-group mt-4" action="action_page.php">
+                                        </div> */}
+                                        {/* <div className="example btn-group mt-4" action="action_page.php">
                                              <input type="text" placeholder=" Search.." name="search" />
                                              <button type="reset" className="btn btn-info btn-lg">Sing</button>
-                                        </div>
+                                        </div> */}
                                         <h4 className=" text-info mt-4">Follow us</h4>
                                         <div className=" d-flex mt-4">
                                              <div className="sa">
@@ -106,6 +106,11 @@ const Footer = () => {
                                                   </div>
                                              </div>
                                         </div>
+                                        <Navbar.Brand href="#" className='mt-10 fs-4 d-flex align-items-center'>
+                              <img className='logoStyle' src="https://i.ibb.co/fSKKn6J/logo.webp" alt="" />
+                             
+                              <h2 className='logoStyle text-info fw-bold'>InneR EngiNeeRinG</h2>
+                         </Navbar.Brand>
                                    </div>
                               </div>
                          </div>
