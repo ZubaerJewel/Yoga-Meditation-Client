@@ -67,13 +67,7 @@ const Footer = () => {
                               </div>
                               <div className="col-lg-4">
                                    <div className="ps-lg-3">
-                                        {/* <div className="sm">
-                                             <h2 className="text-info mt-4"></h2>
-                                        </div> */}
-                                        {/* <div className="example btn-group mt-4" action="action_page.php">
-                                             <input type="text" placeholder=" Search.." name="search" />
-                                             <button type="reset" className="btn btn-info btn-lg">Sing</button>
-                                        </div> */}
+                                      
                                         <h4 className=" text-info mt-4">Follow us</h4>
                                         <div className=" d-flex mt-4">
                                              <div className="sa">
