@@ -11,6 +11,7 @@ import ActiveLink from '../../ActiveLink/ActiveLink';
 import { AuthContext } from '../../AuthProvider/AuthProvider';
 import useAdmin from '../../hooks/useAdmin';
 import useInstructors from '../../hooks/useInstructors';
+// import App from '../../App';
 
 const Header = () => {
      const { user, logOut } = useContext(AuthContext)
@@ -49,6 +50,7 @@ const Header = () => {
                                    <ActiveLink to="/">Home</ActiveLink>
                                    <ActiveLink to="/instructors">Instructors</ActiveLink>
                                    <ActiveLink to="/classes">Classes</ActiveLink>
+                                   
                                    {
                                         (user?.email) && <>
                                              {

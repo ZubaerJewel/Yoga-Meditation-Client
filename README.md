@@ -30,5 +30,12 @@ framer-motion
 firebase
 axios
 tanstack query
+use-local-storage
+cors
+dotenv
+express
+jsonwebtoken
+mongodb
+stripe
 
 

@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import useAuth from "../../hooks/useAuth";
-import useTitle from "../../hooks/useTitle";
+// import useTitle from "../../hooks/useTitle";
 
 const PaymentHistory = () => {
   const { user } = useAuth();
-  const { title } = useTitle();
+ 
   const [payments, setPayments] = useState([]);
-   title = "My Payments";
+   
   useEffect(() => {
     fetch(`https://yoga-meditation-server.vercel.app/payments?email=${user?.email}`)
       .then((res) => res.json())

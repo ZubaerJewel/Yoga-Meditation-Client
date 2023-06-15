@@ -20,6 +20,7 @@ import EnrolledClass from "../pagesDeshboard/EnrolledClass/EnrolledClass";
 import Selected from "../pagesDeshboard/Selected/Selected";
 import Payment from "../pagesDeshboard/Payment/Payment";
 import PaymentHistory from "../pagesDeshboard/Payment/PaymentHistory";
+import App from "../App";
 export const router = createBrowserRouter([
      {
           path: "/",
@@ -34,6 +35,10 @@ export const router = createBrowserRouter([
                     path:"instructors",
                     element:<Instructors></Instructors>
                },
+               // {
+               //      path:"app",
+               //      element:<App></App>
+               // },
                {
                     path: "/classes",
                     element: <Classes></Classes>
